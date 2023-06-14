@@ -22,3 +22,26 @@ if guess == guess_word
 else
     puts "You lost!"
 end
+
+# for loop = helps us to loop though coolectins, arrays ets
+friends = ["Kevin", "Karen", "Oscar", "Angela", "Andy", "Dwight"]
+
+for friend in frineds
+    puts friend
+end
+
+
+for index in 0..5
+    puts index
+end
+
+
+# another way to loop through arrays - do
+friends.each do |friend|
+    puts friend
+end
+
+
+6.times do |index|
+    puts index
+end
