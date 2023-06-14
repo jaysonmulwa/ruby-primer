@@ -45,3 +45,10 @@ end
 6.times do |index|
     puts index
 end
+
+# Multiline comments example
+=begin
+    Output:
+    1
+    2
+=end
